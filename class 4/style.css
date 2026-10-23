@@ -43,6 +43,9 @@ header nav ul{
     gap: 30px;
 }
 
+header nav ul li a{
+    color: red;
+}
 
 
 
