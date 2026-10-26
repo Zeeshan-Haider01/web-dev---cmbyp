@@ -1,0 +1,24 @@
+main section .wrapper{
+    display: flex;
+}
+
+/* partners section css */
+
+.partners .top-content{
+    text-align: center;
+}
+
+.partners .people-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.partners .people-wrapper .person-box{
+    border: 2px solid;
+    width: 400px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.partners .people-wrapper .person-box img{
+    width: 100%;
+}
