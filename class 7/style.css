@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.success .top-content{
+    text-align: center;
+}
+
+.success .card-wrapper{
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+}
+.success .card-wrapper .card .card-top-content{
+    background-color: rgb(4, 24, 234);
+    padding: 20px;
+}
+.success .card-wrapper .card{
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px gray;
+}
+.success .card-wrapper .card .card-top-content h3{
+    color: white;
+}
+.success .card-wrapper .card .card-top-content h4{
+    color: white;
+}
+
+.success .card-wrapper .card .card-desc{
+    padding: 20px;
+}
+
+.success .card-wrapper .card .card-desc p{
+    font-size: 16px;
+    font-family: system-ui;
+}
+
+.success .card-wrapper .card .card-desc button{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* .box-shadow-test */
+
+.box-shadow-test  .box-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    gap: 50px;
+}
+
+.box-shadow-test .box-wrapper .box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+
+/* portfolio */
+.portfolio .portfolio-top-content{
+    text-align: center;
+    margin: 50px;
+}
+.portfolio .ceos-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.portfolio .ceos-wrapper .ceo-card{
+    text-align: center;
+    width: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.portfolio .ceos-wrapper .ceo-card h3{
+    color: white;
+    margin-top: 10px;
+}
+.portfolio .ceos-wrapper .ceo-card h4{
+    color: white;
+    margin-top: 10px;
+}
+.portfolio .ceos-wrapper .ceo-card p{
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.portfolio .ceos-wrapper .ceo-card .img-wrap{
+    background-color: white;
+    border-radius: 200px;
+    overflow: hidden;
+    height: 140px;
+    width: 140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .ceos-wrapper .ceo-card .img-wrap img{
+    width: 80px;
+}
