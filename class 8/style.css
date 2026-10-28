@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.portfolio .top-content{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.portfolio .person-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.portfolio .person-wrapper .person{
+    background: linear-gradient(135deg, #0A1A2D 0%, #162A45 10%, #2A5EE8 100%);
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.portfolio .person-wrapper .person .person-img img{
+    width: 70px;
+}
+
+.portfolio .person-wrapper .person .person-img{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.portfolio .person-wrapper .person .person-content h3{
+    color: white;
+    margin-bottom: 10px;
+}
+.portfolio .person-wrapper .person .person-content h4{
+    color: white;
+    margin-bottom: 10px;
+}
+.portfolio .person-wrapper .person .person-content p{
+    color: white;
+    margin-bottom: 10px;
+}
