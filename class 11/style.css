@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url(https://ashreitech.edu.pk/wp-content/uploads/2025/10/AcademyFoyer-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} */
+
+p{
+    /* text-shadow:10px 10px 10px red;
+    letter-spacing:10px;
+    word-spacing:10px;
+    cursor: pointer;
+    border-color: aqua;
+    border-width: 10px;
+    border-style:dashed;
+    border-right: 2px solid red;
+    border:2px solid green;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    /* background-image: url(); */
+    /* display:block;
+    display: inline;
+    display: inline-block; */
+}
+.banner{
+    text-align: center;
+    padding: 100px 0;
+    /* background-image: url(https://www.w3schools.com/cssref/paper.gif); */
+    /* background-attachment: fixed; */
+}
+.banner h1 {
+    color: white;
+    margin-bottom: 50px;
+}
+.banner p{
+    color: white;
+}
+.test{
+
+}
+
+/* .sec p{
+    
+}
+.sec h2{
+
+}
+.sec h3{
+
+}
+
+.card-content p{
+
+}
+.card-content button{
+
+} */
+
+/* 
+.next{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.next button{
+    padding: 20px;
+    background-color: blue;
+    color: white;
+} */
+
+
+/* .box{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 20px;
+} */
+.box a{
+    /* background-color: red;
+    border: 2px solid;
+    border-radius: 10px;
+    color: white;
+    padding: 10px; */
+    /* display: none;
+    display: block; */
+    /* display: inline-block; */
+}
+/* .box span{
+    color: red;
+} */
