@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+.container{
+    /* background-color: red; */
+    max-width: 1920px;
+    width: 95%;
+    margin: 0 auto;
+}
+.menu-wrapper .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5% 0;
+}
+.menu-wrapper .menu nav ul{
+    display: flex;
+    gap: 20px;
+}
+.hero .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero{
+    background-image: url(https://consulnet.net/wp-content/uploads/2025/04/home-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero .hero-content{
+    text-align: center;
+    padding: 10% 17%;
+}
+.hero .hero-content h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    line-height: 60px;
+    color: white;
+}
+.hero .hero-content h1 span{
+    background-color: red;
+}
+.hero .hero-content p{
+    color: white;
+    font-size: 25px;
+}
+
+.content > p{
+    color: red;
+}
+.content + p{
+    color: greenyellow;
+}
+.content ~ p{
+    color: greenyellow;
+}
