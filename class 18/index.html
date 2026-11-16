@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript DOM Examples</title>
+</head>
+<body>
+
+    <h1>JavaScript DOM Practice</h1>
+    <hr>
+
+
+
+
+
+
+
+
+
+
+    <!-- 1. Change Text -->
+    <h2>1. Change Text</h2>
+    <h3 id="heading">Hello Students!</h3>
+    <button onclick="changeText()">Change Text</button>
+
+    <!-- <script>
+        function changeText() {
+            document.getElementById("heading").innerHTML = "Hello World!";
+        }
+    </script> -->
+
+
+
+    
+
+    <hr>
+
+    <!-- 2. Change Background Color -->
+    <h2>2. Change Background Color</h2>
+    <button onclick="changeColor()">Change Color</button>
+
+    <hr>
+
+    <!-- 3. Show and Hide Text -->
+    <h2>3. Show and Hide Text</h2>
+    <p id="text">JavaScript is easy to learn!</p>
+    <button onclick="hideText()">Hide</button>
+    <button onclick="showText()">Show</button>
+
+    <hr>
+
+    <!-- 4. Display User Input -->
+    <h2>4. Display User Input</h2>
+    <input type="text" id="name" placeholder="Enter your name">
+    <button onclick="showName()">Submit</button>
+    <h3 id="nameResult"></h3>
+
+    <hr>
+
+    <!-- 5. Simple Calculator -->
+    <h2>5. Simple Calculator</h2>
+    <input type="number" id="num1" placeholder="First number">
+    <input type="number" id="num2" placeholder="Second number">
+    <button onclick="calculate()">Add</button>
+    <h3 id="calcResult"></h3>
+
+    <hr>
+
+    <!-- 6. Change Image -->
+    <h2>6. Change Image</h2>
+    <img id="photo" src="https://placehold.co/200x120?text=Image+1" width="200">
+    <br><br>
+    <button onclick="changeImage()">Next Image</button>
+
+    <hr>
+
+    <!-- 7. Character Counter -->
+    <h2>7. Character Counter</h2>
+    <textarea id="message" onkeyup="countCharacters()" placeholder="Write something"></textarea>
+    <p id="charCount">Characters: 0</p>
+
+    <hr>
+
+    <!-- 8. Increase and Decrease Counter -->
+    <h2>8. Counter</h2>
+    <h3 id="counter">0</h3>
+    <button onclick="decrease()">-</button>
+    <button onclick="increase()">+</button>
+
+    <hr>
+
+    <!-- 9. Password Show and Hide -->
+    <h2>9. Password Show/Hide</h2>
+    <input type="password" id="password" placeholder="Enter password">
+    <button onclick="togglePassword()">Show/Hide</button>
+
+    <hr>
+
+    <!-- 10. Simple Login Check -->
+    <h2>10. Simple Login Check</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <h3 id="loginResult"></h3>
+
+    
+    <!-- <script>
+        
+        // 1. Change Text
+        function changeText() {
+            document.getElementById("heading").innerHTML = "Welcome to JavaScript!";
+        }
+
+        // 2. Change Background Color
+        function changeColor() {
+            document.body.style.backgroundColor = "red";
+        }
+
+        // 3. Show and Hide Text
+        function hideText() {
+            document.getElementById("text").style.display = "none";
+        }
+
+        function showText() {
+            document.getElementById("text").style.display = "block";
+        }
+
+        // 4. Display User Input
+        function showName() {
+            let name = document.getElementById("name").value;
+            document.getElementById("nameResult").innerHTML = "Hello " + name;
+            }
+            
+            // 5. Simple Calculator
+            function calculate() {
+                let a = Number(document.getElementById("num1").value);
+                let b = Number(document.getElementById("num2").value);
+                
+                document.getElementById("calcResult").innerHTML = "Result: " + (a + b);
+                }
+                
+                // 6. Change Image
+                function changeImage() {
+                    document.getElementById("photo").src = "https://placehold.co/200x120?text=Image+2";
+                    }
+                    
+                    // 7. Character Counter
+                    function countCharacters() {
+                        let text = document.getElementById("message").value;
+                        document.getElementById("charCount").innerHTML = "Characters: " + text.length;
+                        }
+                        
+                        // 8. Increase and Decrease Counter
+                        let number = 0;
+                        
+                        function increase() {
+                            number++;
+                            document.getElementById("counter").innerHTML = number;
+                            }
+                            
+                            function decrease() {
+                                number--;
+                                document.getElementById("counter").innerHTML = number;
+                                }
+                                
+                                // 9. Password Show/Hide
+                                function togglePassword() {
+                                    let input = document.getElementById("password");
+                                    
+                                    if (input.type === "password") {
+                input.type = "text";
+            } else {
+                input.type = "password";
+            }
+        }
+
+        // 10. Simple Login Check
+        function login() {
+            let user = document.getElementById("username").value;
+            let pass = document.getElementById("loginPassword").value;
+            
+            if (user === "admin" && pass === "1234") {
+                document.getElementById("loginResult").innerHTML = "Login Successful!";
+            } else {
+                document.getElementById("loginResult").innerHTML = "Invalid Login!";
+            }
+        }
+
+    </script> -->
+    
+    <!-- <script>
+        alert("Hello World!");
+        alert("Test");
+        alert("Test 123");
+    </script> -->
+    <script src="app.js"></script>
+</body>
+</html>
